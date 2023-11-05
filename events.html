@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DisneyMinus</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="/events.js" defer></script>
+</head>
+
+<body>
+  <div class="flexbox">
+    <div class="navbar">
+      <button class="drop">≡</button>
+      <div class="navbar-content">
+        <a class="navbarlink" href="index.html">Home</a>
+        <a class="navbarlink" href="events.html">Events</a>
+        <a class="navbarlink" href="guests.html">Guests</a>
+      </div>
+    </div>
+    <h1>Disney Royal Convention</h1>
+  </div>
+  <div id="registered-events-container">
+    <h2>Registered Events</h2>
+    <div id="registered-events"></div>
+  </div>
+  <button id="unregister-all-button">Unregister All Events</button>
+  <h2>Events</h2>
+  <div class="event">
+    <img class="eventImage" src="assets/archerywithMulan.jpg" alt="Archery with Mulan">
+    <h3 class="event-toggle">Archery with Mulan</h3>
+    <div class="event-info">
+      <p>Date and Time: November 4, 2023, 10:00 AM - 11:00 AM</p>
+      <p>Join Mulan for an exciting archery session. Learn to be a warrior like her and hit the bullseye!</p>
+    </div>
+    <button class="register-button">Register</button>
+    <button class="unregister-button" style="display: none;">Unregister</button>
+  </div>
+
+  <div class="event">
+    <img class="eventImage" src="assets/cinderellaBall.jpg" alt="Cinderella Ball">
+    <h3 class="event-toggle">Cinderella's Ball</h3>
+    <div class="event-info">
+      <p>Date and Time: November 4, 2023, 7:00 PM - 10:00 PM</p>
+      <p>Put on your best attire and dance the night away at the enchanting Snow White Ball. Meet Cinderella and her
+        friends.</p>
+    </div>
+    <button class="register-button">Register</button>
+    <button class="unregister-button" style="display: none;">Unregister</button>
+  </div>
+
+  <div class="event">
+    <img class="eventImage" src="assets/carpetRidingWithJasmine.jpg" alt="Carpet Riding with Aladdin and Jasmine">
+    <h3 class="event-toggle">Carpet Riding over NYC with Jasmine</h3>
+    <div class="event-info">
+      <p>Date and Time: November 5, 2023, 3:00 PM - 4:00 PM</p>
+      <p>Join Jasmine for a delightful flight over Empire State Building. Discuss sand dunes, evil viziers, and enjoy
+        the
+        skyline with Jasmine.</p>
+    </div>
+    <button class="register-button">Register</button>
+    <button class="unregister-button" style="display: none;">Unregister</button>
+  </div>
+</body>
+
+</html>
